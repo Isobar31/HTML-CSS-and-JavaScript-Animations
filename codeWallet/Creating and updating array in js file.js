@@ -9,3 +9,11 @@ myArray[2];
 //Updating an existing array.
 myArray[0] = 50;
 console.log(myArray);
+
+
+//Random with array
+var myArray = new Array("school", "game", "work", "family", "faith");
+var rnd = Math.random();
+var fin = Math.floor(rnd*myArray.length);
+console.log(fin);
+//
