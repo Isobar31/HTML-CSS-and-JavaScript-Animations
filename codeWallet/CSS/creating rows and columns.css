@@ -1,0 +1,55 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.row1{
+  height: auto;
+  background-color: purple;
+  width: 100%;
+}
+.row1Content{
+  padding: 10px;
+}
+
+.row2{
+  height: auto;
+  width: 100%;
+}
+
+.column1{
+  width: 20%;
+  background-color: pink;
+  float: left;
+}
+.row2Column1Content{
+  padding: 10px;
+}
+
+.column2{
+  width: 60%;
+  background-color: blue;
+  float: left;
+}
+.row2Column2Content{
+  padding: 10px;
+}
+
+.column3{
+  width: 20%;
+  background-color: gray;
+  float: left;
+}
+.row2Column3Content{
+  padding: 10px;
+}
+
+.row3{
+  height: auto;
+  background-color: red;
+  width: 100%;
+  clear: both;
+}
+.row3Content{
+  padding: 10px;
+}
