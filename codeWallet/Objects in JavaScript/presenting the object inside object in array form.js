@@ -16,3 +16,14 @@ var friends = {
 
 var friend1 = [Isaac, {name:"Tari-ebi Suobo", age:26, appearance:"slim"}];
 // console.log();
+
+
+
+
+
+
+//To retrieve the a particular property in a particular object from the objects inside the object.
+friend1[0].appearance
+"thick bodied" // result.
+friend1[1].appearance
+"slim" // result.
