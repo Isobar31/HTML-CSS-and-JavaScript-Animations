@@ -35,3 +35,29 @@ function sameFrequency(arg1, arg2){
     }
     return true;
 }
+
+
+
+// Another approach
+function sameFrequency(first, second) {
+
+    if (first.toString().length !== second.toString().length) return false;
+
+    let frequencies = {};
+ 
+    let digit;
+    while (first) {
+        digit = first % 10;
+        frequencies[digit] = ++frequencies[digit] || 1;
+        first = Math.floor(first / 10);
+    }
+ 
+    while (second) {
+        digit = second % 10;
+        if (!frequencies[digit]--) {
+            return false;
+        }
+        second = Math.floor(second / 10);
+    }
+    return true;
+}
