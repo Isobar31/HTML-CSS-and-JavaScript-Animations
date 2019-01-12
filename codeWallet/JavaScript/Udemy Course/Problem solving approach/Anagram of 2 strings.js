@@ -31,5 +31,3 @@ for(var i = 0; i < str2.length; i++)
  return true;
 }
 
-AnagramStrings("Welcome", "Welcome");
-
